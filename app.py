@@ -9,7 +9,7 @@ st.set_page_config(page_title="InfoBee AI - Telecom Risk Analyzer", layout="wide
 
 st.title("🐝 InfoBee AI: Telecom Project Risk Management Framework")
 st.caption("Automated RAG Pipeline for Grounded Document Analysis & Risk Register Synthesis")
-st.hr()
+st.divider()
 
 # 2. Initialize Gemini Client safely using Streamlit's background environment management
 # (We will configure this secret token in the next step)
